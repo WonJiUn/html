@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<div style="background-color: skyblue">div 첫번째 영역</div>
+	<div>div 두번째 영역</div>
+	<div>div 세번째 영역</div>
+	
+	<span style="background-color: skyblue">span 1</span>
+	<span>span 2</span>
+	<span>span 3</span>
+	
+<hr>
+
+	<fieldset style="width:300px;">
+		<legend>취미조사</legend>
+		게임<input type="checkbox">
+		멍타기<input type="checkbox">
+		컴퓨터<input type="checkbox">
+	</fieldset>
+
+<hr>
+	<textarea rows="3" cols="50"></textarea>
+
+<hr>
+	<form action="day02.html" method="get">
+		<select name="select">
+			<option value="p1">바나나
+			<option value="p2">사과
+			<option value="p3">배
+			<option value="p4">복숭아
+		</select>
+		
+		<input type="text" name="query" placeholder="search text"><br>
+		<input type="text" name="id" placeholder="input id"><br>
+		<input type="password" name="pwd" placeholder="input password"><br>
+		<input type="submit" value="로그인">
+		<input type="reset" value="취소">
+		<input type="button" value="버어튼">
+	</form>
+<hr>
+
+취미조사<br>
+자바공부<input type="checkbox">
+놀지않고 공부<input type="checkbox" checked>
+계속 공부하자<input type="checkbox">
+
+<hr>
+
+10대<input type="radio" name="age">
+20대<input type="radio" name="age" checked>
+30대<input type="radio" name="age">
+
+<hr>
+	<input type="button" value="버어튼"><br>
+	<input type="submit" value="서브밋"><br>
+	<input type="reset" value="취소"><br>
+	<input type="text" value="텍스트"><br>
+	<input type="password" value="비밀번호"><br>
+	라디오<input type="radio"><br>
+	<input type="checkbox"><br>
+	
+<!-- 
+submit, reset은 form태그로 묶여있어야 동작함
+버튼은 작동시키기 위해서는 추가적인 조치 필요
+form action="day02.html" : submit 버튼을 누르면 다음 주소로 이동됨
+method="get" : 디폴드값으로 적용되므로 생략해도 같은 방식으로 작동함(주소창에 붙여서 데이터를 보내는 방식)
+method="post" : http헤더에 붙여서 데이터를 넘기는 방식(많은양의 데이터를 넘길때 사용)
+div / span : 그 자체로 기능이 있지는 않고, 영역을 나눠주는 역할
+ -->	
+</body>
+</html>

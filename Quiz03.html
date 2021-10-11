@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>2일차 퀴즈 - 2</title>
+</head>
+<body>
+<form action="Quiz02.html" method="get">
+<font size="3">
+
+<table height="400" width="500">
+
+<tr>
+	<td colspan="2">다음 <b style="background-color:silver;">내용에 맞게 입력</b> 하시오.
+	<p>전공 분야를 입력하세요.
+		<select name="select">
+			<option value="p1">소프트웨어
+			<option value="p2">전공2
+			<option value="p3">전공3
+			<option value="p4">전공4
+		</select>
+	</p></td>
+	<td rowspan="2">
+		<img src="img/img.jpg" width="150" height="150px">
+	</td>
+</tr>
+
+<tr>
+	<td>
+		이름
+		<p>아이디</p>
+		비밀번호
+	</td>
+	<td>
+		<input type="text" name="name">
+		<p><input type="text" name="id"></p>
+		<input type="text" name="pwd">
+	</td>
+</tr>
+
+<tr>
+	<td colspan="3">
+		<fieldset style="width:450px;">
+		<legend>성별 조사</legend>
+		여성<input type="radio" name=gender checked>
+		남성<input type="radio" name=gender>
+	</td>
+</tr>
+
+<tr>
+	<td colspan="3">
+		<fieldset style="width:450px;">
+		<legend>취미 조사</legend>
+		책읽기<input type="checkbox">
+		공부하기<input type="checkbox">
+		책 읽으며 공부하기<input type="checkbox">
+		컴퓨터<input type="checkbox">
+	</td>
+</tr>
+
+<tr>
+	<td colspan="3">
+		<fieldset style="width:450px;">
+		<legend>하고 싶은 말</legend>
+		<textarea rows="3" cols="60"></textarea>
+	</td>
+</tr>
+
+</table>
+
+<input type="submit" value="완료">
+<input type="reset" value="다시작성">
+
+</font>
+</form>
+</body>
+</html>
